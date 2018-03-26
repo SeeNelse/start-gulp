@@ -1,0 +1,21 @@
+.clearfix:after, .clearfix:before {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+a {text-decoration: none;}
+a:hover {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:active {text-decoration: none;}
+a:focus {text-decoration: none;}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  font: 16px/24px 'Open Sans', sans-serif;
+  background-color: #fff;
+}
